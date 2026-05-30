@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anomalia Temporal Global</title>
+
+    <link rel="shortcut icon" href="Favicon/raios-de-sol.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css">
+</head>
+<body>
+
+    <div class="container">
+        
+        <header>
+            <h1>Anomalias do Aquecimento Global (1980–2024)</h1>
+            <strong><p>Dupla: Bruno Henrique e Lays Lira</p></strong>
+        </header>
+
+        <section class="conteudo-texto">
+            <p>Compreender o clima atual é antecipar o nosso próprio futuro. Este projeto analisa a aceleração do aquecimento global entre 1980 e 2024 através das chamadas Anomalias de Temperatura — que indicam o quanto a média de um ano se desviou (para mais ou para menos) do padrão histórico do planeta. <br> Para entender os gráficos deste site, existe um conceito chave: as Anomalias de Temperatura. Elas não mostram a temperatura exata de um dia ou de uma cidade, mas sim o quanto a média global daquele ano se afastou (subiu ou desceu) daquilo que era considerado "normal" na história do planeta.</p>
+            <p>Para garantir total rigor científico, cruzamos dados das duas fontes climatológicas mais respeitadas do mundo: <br> <br> <strong>GISTEMP (NASA)</strong>: Que integra sensores terrestres, satélites e boias oceânicas para mapear o calor global, incluindo regiões isoladas como os polos.
+                <br> <br>
+           <strong>GCAG</strong>: Uma robusta base histórica focada em estatísticas e grandes tendências climáticas de longo prazo.</p>
+        </section>
+
+        <div class="area-grafico">
+            <h2>Visualização das Tendências das Anomalias</h2>
+            
+            <div id="observablehq-8055e05c"></div>
+            
+            <p class="creditos">
+                Interatividade provida via <a href="https://observablehq.com/d/28e8b40a649209c9" target="_blank">ObservableHQ Runtime API</a>
+            </p>
+        </div>
+
+        <strong><p>O resultado visualizado nos gráficos é inegável: a partir de 1980, a Terra entrou em um ciclo de aquecimento acelerado e sem precedentes. Mais do que estatísticas, estes dados comprovam que diferentes instituições científicas chegam à mesma conclusão urgente: o nosso planeta está aquecendo de forma cada vez mais rápida.</p></strong>
+
+        <footer>
+            <strong><p>Anomalia Temporal - Disponibilizado no GitHub Pages</p></strong>
+        </footer>
+
+    </div>
+
+    <script type="module">
+        import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
+        import define from "https://api.observablehq.com/d/28e8b40a649209c9.js?v=4";
+        new Runtime().module(define, Inspector.into("#observablehq-8055e05c"));
+    </script>
+
+</body>
+</html>
