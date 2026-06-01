@@ -1,6 +1,5 @@
-/* Configurações Gerais e Cores (Paleta Moderna e Científica) */
 :root {
-    --bg-principal: #a3b7ca;       
+    --bg-principal: #cdd3d8;       
     --bg-card: #ffffff;            
     --texto-escuro: #00317f;       
     --texto-mutado: #00337bb5;       
@@ -24,13 +23,11 @@ body {
     padding: 40px 20px;
 }
 
-/* Layout e Container (Centralização do Conteúdo) */
 .container {
     max-width: 850px; 
     margin: 0 auto;
 }
 
-/* Tipografia (Títulos e Textos)*/
 header {
     margin-bottom: 40px;
     border-bottom: 2px solid var(--texto-escuro);
@@ -50,7 +47,6 @@ header p {
     color: var(--texto-mutado);
 }
 
-/* Estilo para os blocos de texto explicativos */
 .conteudo-texto {
     font-size: 1.1rem;
     color: #02224e;
@@ -61,13 +57,11 @@ header p {
     margin-bottom: 15px;
 }
 
-/* Destacar siglas como GISTEMP e GCAG */
 strong {
     color: var(--texto-escuro);
     font-weight: 600;
 }
 
-/* O Card do Gráfico (A Moldura do Observable) */
 .area-grafico {
     background-color: var(--bg-card);
     border: 1px solid var(--borda);
@@ -78,7 +72,6 @@ strong {
     transition: transform 0.2s ease;
 }
 
-/* Efeito sutil ao passar o mouse no card do gráfico */
 .area-grafico:hover {
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05);
 }
@@ -90,14 +83,12 @@ strong {
     border-left: 4px solid var(--cor-acento); 
 }
 
-/* Ajustes para o elemento que vem do Observable */
 #observablehq-8055e05c {
     width: 100%;
     min-height: 400px;
     overflow-x: auto; 
 }
 
-/* Links e Créditos */
 a {
     color: var(--cor-acento);
     text-decoration: none;
@@ -115,7 +106,6 @@ a:hover {
     margin-top: 15px;
 }
 
-/* Rodapé */
 footer {
     text-align: center;
     padding: 30px 0;
