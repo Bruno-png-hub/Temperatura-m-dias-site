@@ -1,10 +1,10 @@
 :root {
-    --bg-principal: #0b0f17; 
-    --bg-card: #131b26;            
-    --texto-claro: #f1f5f9;        
+    --bg-principal: #0b0f17;
+    --bg-card: #131b26;
+    --texto-claro: #f1f5f9;
     --texto-mutated-dark: #94a3b8;
-    --cor-acento: #f97316;        
-    --borda: #1e293b;             
+    --cor-acento: #f97316;
+    --borda: #1e293b;
     --fonte-principal: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
 }
 
@@ -121,7 +121,7 @@ strong {
     width: 100%;
     min-height: 400px;
     overflow-x: auto; 
-    background-color: ##171414;
+    background-color: #171414;
     padding: 15px;
     border-radius: 8px;
 }
